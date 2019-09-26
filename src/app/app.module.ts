@@ -7,12 +7,14 @@ import { InterpolationBindingComponent } from './interpolation-binding/interpola
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import {FormsModule} from '@angular/forms';
+import { NgIfComponent } from './ng-if/ng-if.component';
 @NgModule({
   declarations: [
     AppComponent,
     InterpolationBindingComponent,
     PropertyBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
